@@ -1,0 +1,11 @@
+path: E:/shuju/video_frames  # 数据集的根路径
+train: images/train  # 训练集路径
+val: images/val  # 验证集路径
+# test:  # 如果有测试集，你可以定义路径
+
+# 类别数量 (共17个)
+nc: 17
+
+# 类别名称 (前15个为空的占位符，最后两个是有意义的)
+names: ['class_0', 'class_1', 'class_2', 'class_3', 'class_4', 'class_5', 'class_6', 'class_7', 'class_8', 'class_9', 'class_10', 'class_11', 'class_12', 'class_13', 'class_14', 'focus', 'screen']
+
